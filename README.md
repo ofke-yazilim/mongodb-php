@@ -15,10 +15,10 @@ Class Kullanım Örnekleri : https://github.com/ofke-yazilim/mongodb-php/blob/ma
 require_once 'mongo.php';<br>
 $mongo = new mongo();
 
-<h4>Sql deyimi ile database mongo db deyimi ile Db oluşturuluyor Deneme adında.<strong>Mutlaka belirtilmeli</strong><h4>
+<h4>Sql deyimi ile database mongo db deyimi ile Db oluşturuluyor Deneme adında.<strong>Mutlaka belirtilmeli</strong></h4>
 $database =  $mongo->createDatabase("deneme");
 
-<h4>Sql deyimi ile table mongo db deyimi ile colaction oluşturuluyor table adında.<strong>Mutlaka belirtilmeli</strong><h4>
+<h4>Sql deyimi ile table mongo db deyimi ile colaction oluşturuluyor table adında.<strong>Mutlaka belirtilmeli</strong></h4>
 $table    =  $mongo->createTable("table2");
 
 <h4>Sadece bilgileri verilen tek insert yapılıyor</h4>
