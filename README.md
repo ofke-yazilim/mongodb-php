@@ -28,7 +28,6 @@ $mongo->insertOne(array("id"=>8,"name"=>"omer","surname"=>"faruk"));
 $mongo->insertVery(array(array("id"=>6,"name"=>"Önder","surname"=>"Bayram"),array("id"=>7,"name"=>"Halil","surname"=>"Yunus")));
 
 <h2>Aşağıda Select İşlemlerini Yapan Bir Kaç Örnek Mevcuttur</h2>
-<br>
 
 <h4>Getirilecek eleaman sayısını belirtir</h4>
 $limit = 100;
