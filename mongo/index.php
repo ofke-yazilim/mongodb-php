@@ -1,4 +1,9 @@
 <?php
+/*
+ * @author : Ömer Faruk KESMEZ
+ * date    : 28/11/2017
+ * mongo.php sınıfının kullanım örnekleri.
+ */
 
 /*
  * Aşağıda mongo db üzerinde kullanılan tanımların sql karşılıkları bulunur
@@ -10,7 +15,8 @@ Row	     Document
 Column       Field
 */
 
-require_once 'mongo.php';
+//<h4>Mongodb class dahil ediliyor</h4>
+require_once 'mongo.php';//<br>
 $mongo = new mongo();
 
 //<h4>Sql deyimi ile database mongo db deyimi ile Db oluşturuluyor Deneme adında.<h4>

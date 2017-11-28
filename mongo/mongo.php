@@ -1,7 +1,10 @@
 <?php
 
 /**
- * Description of mongo
+ * Php 7.0.3 Kulanılarak Mongodb kullanımı
+ * Ömer Faruk KESMEZ
+ * Umuma Açıktır 
+ * Dilediğiniz gibi kullanın.
  *
  * @author o.kesmez
  */
